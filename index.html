@@ -566,7 +566,8 @@
     <p class="section-desc reveal">У каждого направления своя команда, ментор, требования и набор задач на стажировку.</p>
 
     <div class="dir-grid">
-      <div class="dir-card reveal">
+      <div class="dir-card closed reveal">
+        <div class="closed-pill"><span class="dot"></span>Приём заявок закрыт</div>
         <div class="icon-badge bg-orange"><span class="spark" style="color:var(--orange)"><svg viewBox="0 0 100 100"><use href="#spark"/></svg></span></div>
         <h3>Разработка & Security</h3>
         <p>Работаешь над реальными продакшн-сервисами с высокой нагрузкой: пишешь и дорабатываешь API, оптимизируешь запросы к базе данных, работаешь с очередями сообщений, покрываешь код тестами. В одной из команд — задачи алгоритмической оптимизации: считаешь оптимальные маршруты и группировки на реальных данных. На фронтенде — вёрстка и логика на React, работа с дизайн-системой. Есть и отдельное направление — Security.</p>
@@ -578,7 +579,8 @@
         <p>Пишешь и поддерживаешь автотесты — в том числе мобильные, для Android — и разбираешься в нагрузочном и хаос-тестировании: строишь инструменты для запуска нагрузочных тестов и анализа результатов, проверяешь, что сервисы держат пиковую нагрузку. Часть команд — про ручное тестирование и регресс, там важны внимательность и системность.</p>
         <p class="dir-req"><b>Что ожидаем от кандидатов:</b> знание любого языка программирования (в идеале Java или Kotlin), понимание работы клиент-серверных приложений, основы SQL. Плюсом — опыт с Espresso/Kaspresso, любым стеком разработки, Docker/Kubernetes.</p>
       </div>
-      <div class="dir-card reveal">
+      <div class="dir-card closed reveal">
+        <div class="closed-pill"><span class="dot"></span>Приём заявок закрыт</div>
         <div class="icon-badge bg-pink"><span class="spark" style="color:var(--pink)"><svg viewBox="0 0 100 100"><use href="#spark"/></svg></span></div>
         <h3>Аналитика</h3>
         <p>Работаешь с SQL и Python на реальных данных о клиентах и бизнесе: считаешь эффект A/B-тестов и экспериментов, разбираешься в оттоке и сегментации клиентов, оцениваешь эффективность маркетинговых механик и юнит-экономику. Отдельная задача — оценивать качество ответов ИИ-агента. Часто есть быстрые ad-hoc исследования на день-два.</p>
@@ -870,17 +872,6 @@
             <label for="track">Выбирайте ваше направление</label>
             <select id="track" name="track" required>
               <option value="">Выбери направление</option>
-              <option value="dev">Разработка & Security</option>
-              <option value="analytics">Аналитика</option>
-              <option value="qa">QA</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="track2">Второй приоритет в стажировке, если рассматриваете более одного направления</label>
-            <select id="track2" name="track2">
-              <option value="">Не рассматриваю другое направление</option>
-              <option value="dev">Разработка & Security</option>
-              <option value="analytics">Аналитика</option>
               <option value="qa">QA</option>
             </select>
           </div>
